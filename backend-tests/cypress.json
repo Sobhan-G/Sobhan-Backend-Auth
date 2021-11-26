@@ -1,0 +1,6 @@
+{
+    "reporter": "mochawesome",
+    
+    "chromeWebSecurity": false
+
+}

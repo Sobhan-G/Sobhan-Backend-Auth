@@ -1,0 +1,195 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-26T12:54:12.910Z",
+    "end": "2021-11-26T12:54:18.035Z",
+    "duration": 5125,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c06ac165-c219-4a3c-883e-b1c0767908cc",
+      "title": "",
+      "fullFile": "cypress/integration/test.spec.js",
+      "file": "cypress/integration/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b314560b-c728-4471-b655-65ead6b61676",
+          "title": "Testsuite-1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "create a client",
+              "fullTitle": "Testsuite-1 create a client",
+              "timedOut": null,
+              "duration": 274,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelpers.createRandomClientPayload(cy);",
+              "err": {},
+              "uuid": "8c87a836-bcdd-4c13-87fb-cae35523434d",
+              "parentUUID": "b314560b-c728-4471-b655-65ead6b61676",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "change a clients info",
+              "fullTitle": "Testsuite-1 change a clients info",
+              "timedOut": null,
+              "duration": 1363,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelpers.changeClientinfo(cy);",
+              "err": {},
+              "uuid": "1f9a6283-1fd7-4b2b-87cb-6ed244dc0f35",
+              "parentUUID": "b314560b-c728-4471-b655-65ead6b61676",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create a reservation",
+              "fullTitle": "Testsuite-1 create a reservation",
+              "timedOut": null,
+              "duration": 743,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "reservHelpers.createReserv(cy);",
+              "err": {},
+              "uuid": "33e49569-3447-4123-aa91-abd04183f644",
+              "parentUUID": "b314560b-c728-4471-b655-65ead6b61676",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create a room",
+              "fullTitle": "Testsuite-1 create a room",
+              "timedOut": null,
+              "duration": 874,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "roomHelpers.createRoom(cy);",
+              "err": {},
+              "uuid": "f60c9267-65a7-4307-a7c9-aae16de962af",
+              "parentUUID": "b314560b-c728-4471-b655-65ead6b61676",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "edit a bill",
+              "fullTitle": "Testsuite-1 edit a bill",
+              "timedOut": null,
+              "duration": 964,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "billHelpers.editBill(cy);",
+              "err": {},
+              "uuid": "d42a630d-9dc0-4850-afa8-05c97eeb43b3",
+              "parentUUID": "b314560b-c728-4471-b655-65ead6b61676",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "create a client and delete it",
+              "fullTitle": "Testsuite-1 create a client and delete it",
+              "timedOut": null,
+              "duration": 405,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelpers.deleteRequestAfterGet(cy);",
+              "err": {},
+              "uuid": "6f44abfe-5248-4741-bf08-2a89a112a82a",
+              "parentUUID": "b314560b-c728-4471-b655-65ead6b61676",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8c87a836-bcdd-4c13-87fb-cae35523434d",
+            "1f9a6283-1fd7-4b2b-87cb-6ed244dc0f35",
+            "33e49569-3447-4123-aa91-abd04183f644",
+            "f60c9267-65a7-4307-a7c9-aae16de962af",
+            "d42a630d-9dc0-4850-afa8-05c97eeb43b3",
+            "6f44abfe-5248-4741-bf08-2a89a112a82a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4623,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
